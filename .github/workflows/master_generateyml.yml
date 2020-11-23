@@ -31,5 +31,5 @@ jobs:
       with:
         app-name: 'generateyml'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_85c89087222048e59e81a3bec6365c6f }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_85******365c6f }}
         package: ${{env.DOTNET_ROOT}}/myapp 
